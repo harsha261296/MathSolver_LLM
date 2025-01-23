@@ -10,8 +10,7 @@ load_dotenv()
 from langchain.callbacks import StreamlitCallbackHandler
 
 ## Streamlit app
-####
-
+##
 st.title("Math Problem solver and data search assistant")
 
 api_key=st.sidebar.text_input("Enter the GRoQ API key",type="password")
