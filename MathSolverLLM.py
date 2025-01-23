@@ -10,6 +10,7 @@ load_dotenv()
 from langchain.callbacks import StreamlitCallbackHandler
 
 ## Streamlit app
+####
 
 st.title("Math Problem solver and data search assistant")
 
