@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Harsha2612:$HF_TOKEN@huggingface.co/spaces/Harsha2612/Math_Solver_LLM main
+        run: git push https://Harsha2612:$HF_TOKEN@huggingface.co/spaces/Harsha2612/Math_Solver_Groq_LLM main
